@@ -12,10 +12,28 @@ public class Word
         _isHidden = false;
     }
 
-    public void Hide() => _isHidden = true;
-    public void Show() => _isHidden = false;
-    public bool IsHidden() => _isHidden;
+    public void Hide() //made Hide() and others more like Word as it made it easier to see
+    {
+        _isHidden = true;
+    }
+    public void Show()
+    {
+        _isHidden = false;
+    }
+    public bool IsHidden()
+    {
+        return _isHidden;
+    }
 
-    public string GetDisplayText() =>
-        _isHidden ? new string('_', _text.Length) : _text;
+    public string GetDisplayText()
+    {
+        if (_isHidden)
+        {
+            return new string('_', _text.Length);
+        }
+        else
+        {
+            return _text;
+        }
+    }
 }
