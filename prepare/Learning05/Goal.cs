@@ -21,3 +21,5 @@ public abstract class Goal
     public abstract int RecordEvent();
     public abstract string DisplayStatus();
 }
+
+// Added bonus points in my Goal.cs file for gamification purposes :)

@@ -22,3 +22,5 @@ class Program
         }
     }
 }
+
+// Added bonus points in my Goal.cs file for gamification purposes :)
