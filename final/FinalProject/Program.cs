@@ -1,5 +1,4 @@
 using System;
-// changes to make before final submission: add method to include numbered steps in recipe instructions (also add "end recipe" command to continue), add method to include recipe in multiple categories, add change to DisplayAllRecipes method to not show duplicates (if the same recipe is in multiple categories), etc.
 
 class Program
 {
